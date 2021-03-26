@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pages_quotes",
+  "info": {
+    "name": "quote",
+    "icon": "grin"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "quoter": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_articles_categories",
+  "info": {
+    "name": "category",
+    "icon": "cross",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

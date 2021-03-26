@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "categories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "category": {
+      "type": "component",
+      "repeatable": false,
+      "component": "articles.category",
+      "required": true
+    },
+    "pages": {
+      "collection": "pages",
+      "via": "categories"
+    }
+  }
+}
